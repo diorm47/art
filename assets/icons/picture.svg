@@ -1,0 +1,20 @@
+<svg width="276.000000" height="277.412964" viewBox="0 0 276 277.413" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip16_120">
+			<rect id="Frame" rx="0.000000" width="275.000000" height="276.412964" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Frame" rx="0.000000" width="275.000000" height="276.412964" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip16_120)">
+		<path id="Vector" d="M172.5 94.2L172.61 94.2" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M69 151.7L99.4 121.3C100.69 120 102.23 118.98 103.92 118.28C105.61 117.58 107.42 117.22 109.25 117.22C111.07 117.22 112.88 117.58 114.57 118.28C116.26 118.98 117.8 120 119.09 121.3L161 163.2" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M149.5 151.7L168.4 132.8C169.69 131.5 171.23 130.48 172.92 129.78C174.61 129.08 176.42 128.72 178.25 128.72C180.07 128.72 181.88 129.08 183.57 129.78C185.26 130.48 186.8 131.5 188.09 132.8L207 151.7" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M46 94.2L46 71.2C46 65.1 48.42 59.25 52.73 54.94C57.04 50.62 62.89 48.2 69 48.2L92 48.2" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M46 186.2L46 209.2C46 215.3 48.42 221.15 52.73 225.47C57.04 229.78 62.89 232.2 69 232.2L92 232.2" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M184 48.2L207 48.2C213.1 48.2 218.95 50.62 223.26 54.94C227.57 59.25 230 65.1 230 71.2L230 94.2" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M184 232.2L207 232.2C213.1 232.2 218.95 229.78 223.26 225.47C227.57 221.15 230 215.3 230 209.2L230 186.2" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>
