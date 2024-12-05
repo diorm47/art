@@ -1,7 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+/* Gilroy */
+@font-face {
+  font-family: "Gilroy400";
+  src: url("../assets/fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy600";
+  src: url("../assets/fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy800";
+  src: url("../assets/fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Druk */
+@font-face {
+  font-family: "Druk";
+  src: url("../assets/fonts/DrukWideBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Didot */
+@font-face {
+  font-family: "Didot";
+  src: url("../assets/fonts/TheanoDidot-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -10,7 +47,6 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
   background: rgb(3, 3, 3);
 }
 a {
@@ -51,6 +87,7 @@ nav {
 .nav_contacts p {
   color: rgb(255, 255, 255);
   transition: all 0.5s ease;
+  font-family: Gilroy400;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -62,7 +99,7 @@ nav {
   transition: all 0.5s ease;
   color: rgb(255, 105, 21);
 }
-.nav_contacts svg *{
+.nav_contacts svg * {
   transition: all 0.5s ease;
 }
 .nav_contacts a:hover svg * {
@@ -113,7 +150,7 @@ nav {
 .nav_bag_count {
   position: absolute;
   width: 16.01px;
-  height: 16.01px; /* Light Orange */
+  height: 16.01px;
   background: rgb(255, 105, 21);
   border-radius: 50%;
   display: flex;
@@ -164,7 +201,7 @@ header {
 
 .header_content h1 {
   color: rgb(255, 255, 255);
-  font-family: Inter;
+  font-family: "Druk";
   font-size: 80px;
   font-weight: 700;
   line-height: 120%;
@@ -175,7 +212,7 @@ header {
 
 .header_content p {
   color: rgb(255, 255, 255);
-
+  font-family: "Gilroy400";
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -242,7 +279,7 @@ header {
 .expositions_wrapper_left h3 {
   margin-bottom: 58px;
   color: rgb(255, 255, 255);
-  /* font-family: Theano Didot; */
+  font-family: "Didot";
   font-size: 54px;
   font-weight: 400;
   line-height: 120%;
@@ -257,7 +294,7 @@ header {
 
 .expositions_wrapper_left p {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -273,7 +310,7 @@ header {
 
 .arriwals_title h2 {
   color: rgb(255, 255, 255);
-  /* font-family: Theano Didot; */
+  font-family: "Didot";
   font-size: 54px;
   font-weight: 400;
   line-height: 120%;
@@ -331,7 +368,7 @@ header {
 
 .arriwals_grid_item_actions h2 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -341,7 +378,7 @@ header {
 
 .arriwals_grid_item_actions h4 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy800";
   font-size: 18px;
   font-weight: 800;
   line-height: 28px;
@@ -359,7 +396,7 @@ header {
 }
 .card_remove_actions p {
   color: rgb(255, 0, 0);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -369,7 +406,7 @@ header {
 
 .card_add_actions p {
   color: rgb(255, 105, 21);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
@@ -402,7 +439,7 @@ header {
 }
 .contacts_us_form_form_title h3 {
   color: rgb(255, 255, 255);
-  /* font-family: Theano Didot; */
+  font-family: "Didot";
   font-size: 54px;
   font-weight: 400;
   line-height: 120%;
@@ -413,7 +450,7 @@ header {
 
 .contacts_us_form_form_title p {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
@@ -424,7 +461,7 @@ header {
 
 .input_item p {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
@@ -442,7 +479,7 @@ header {
   outline: none;
   padding-left: 20px;
   color: #fff;
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
@@ -473,7 +510,7 @@ header {
   padding-left: 16px;
   padding-right: 16px;
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
@@ -542,7 +579,7 @@ header {
 }
 .location_item_title h4 {
   color: rgb(0, 0, 0);
-  /* font-family: Theano Didot; */
+  font-family: "Didot";
   font-size: 24px;
   font-weight: 400;
   line-height: 120%;
@@ -552,7 +589,7 @@ header {
 
 .location_item p {
   color: rgb(0, 0, 0);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 24px;
   font-weight: 400;
   line-height: 120%;
@@ -567,7 +604,7 @@ header {
 }
 .closed p {
   color: rgb(255, 0, 0);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 24px;
   font-weight: 400;
   line-height: 120%;
@@ -605,7 +642,7 @@ header {
 
 .pre_footer_right_content_title h3 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy600";
   font-size: 32px;
   font-weight: 600;
   line-height: 150%;
@@ -615,7 +652,7 @@ header {
 
 .pre_footer_right_content p {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -647,7 +684,7 @@ footer p {
 }
 .order_container_title h1 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy600";
   font-size: 45px;
   font-weight: 500;
   line-height: 48px;
@@ -701,7 +738,7 @@ footer p {
   outline: none;
   color: #fff;
 
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
@@ -719,7 +756,7 @@ footer p {
 
 .order_calculating h3 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy600";
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
@@ -736,7 +773,7 @@ footer p {
 
 .orders_list_item_desc div h5 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy600";
   font-size: 16px;
   font-weight: 500;
   line-height: 21px;
@@ -747,7 +784,7 @@ footer p {
 
 .orders_list_item_desc div p {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -772,7 +809,7 @@ footer p {
 
 .orders_list_item_price {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 17px;
   font-weight: 400;
   line-height: 26px;
@@ -793,7 +830,7 @@ footer p {
 
 .order_total h4 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -803,7 +840,7 @@ footer p {
 
 .order_total p {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy600";
   font-size: 19px;
   font-weight: 600;
   line-height: 26px;
@@ -819,7 +856,7 @@ footer p {
 
 .order_calculating_title h3 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -843,7 +880,7 @@ footer p {
   color: rgb(255, 255, 255);
   opacity: 0.7;
 
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -876,8 +913,7 @@ footer p {
 .order_policy p,
 .order_policy a {
   color: rgb(255, 255, 255, 0.7);
-
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
@@ -899,7 +935,7 @@ footer p {
   width: 82%;
   cursor: pointer;
   color: rgb(255, 105, 21);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy600";
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -922,7 +958,7 @@ footer p {
 
 .success_contact_form h4 {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy600";
   font-size: 35px;
   font-weight: 500;
   line-height: 100%;
@@ -932,7 +968,7 @@ footer p {
 
 .success_contact_form p {
   color: rgb(255, 255, 255);
-  /* font-family: Gilroy; */
+  font-family: "Gilroy400";
   font-size: 17px;
   font-weight: 400;
   line-height: 100%;
