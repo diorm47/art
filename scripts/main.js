@@ -40,3 +40,11 @@ document.querySelector(".send_btn").addEventListener("click", (event) => {
     setSuccessBlock();
   }
 });
+
+function showMore() {
+  document.querySelectorAll(".arriwals_grid_list_hidden").forEach((element) => {
+    element.style.display = "flex";
+  });
+
+  document.querySelector(".show_more_btn").style.display = "none";
+}
