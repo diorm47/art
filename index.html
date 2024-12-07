@@ -36,7 +36,7 @@
 
             <p>501 099 490</p>
           </a>
-          <a href="#">
+          <div>
             <svg
               width="17.000977"
               height="19.484802"
@@ -66,7 +66,7 @@
             </svg>
 
             <p>Via Guglielmo Silva, 38, 20149 Milano MI, Italy</p>
-          </a>
+          </div>
         </div>
         <div class="lang_toggler">
           <p class="lang_toggler_active">ENG</p>
@@ -283,24 +283,33 @@
             <div class="input_item">
               <p>Enter your name</p>
               <input type="text" name="" id="" />
+              <div class="error_message">
+                <span>Please, enter your name!</span>
+              </div>
             </div>
             <div class="input_item phone_input">
               <p>Enter your contact number</p>
-              <div>
+              <div class="phone_inputs_wrapper">
                 <select name="" id="">
-                  <option value="+373">+373</option>
-                  <option value="+374">+374</option>
-                  <option value="+376">+376</option>
+                  <option value="+48">+48</option>
+                  <option value="+48">+48</option>
+                  <option value="+48">+48</option>
                 </select>
                 <input type="text" name="" id="" />
+              </div>
+              <div class="error_message">
+                <span>Please, enter your contact number!</span>
               </div>
             </div>
             <div class="input_item">
               <p>Enter your contact mail</p>
               <input type="text" name="" id="" />
+              <div class="error_message">
+                <span>Please, enter your contact mail!</span>
+              </div>
             </div>
 
-            <button class="send_btn" onclick="setSuccessBlock()">
+            <button class="send_btn" >
               Continue
             </button>
           </div>

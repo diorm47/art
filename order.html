@@ -35,7 +35,7 @@
             </svg>
             <p>501 099 490</p>
           </a>
-          <a href="#">
+          <div>
             <svg
               width="17.000977"
               height="19.484802"
@@ -65,7 +65,7 @@
             </svg>
 
             <p>Via Guglielmo Silva, 38, 20149 Milano MI, Italy</p>
-          </a>
+          </div>
         </div>
         <div class="lang_toggler">
           <p class="lang_toggler_active">ENG</p>
@@ -92,6 +92,9 @@
             <div class="input_item">
               <p>Ваше имя <span>*</span></p>
               <input type="text" name="" id="" placeholder="Как вас зовут" />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
             <div class="input_item">
               <p>Фамилия <span>*</span></p>
@@ -101,6 +104,9 @@
                 id=""
                 placeholder="Введите вашу фамилию"
               />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
           </div>
           <div class="input_item">
@@ -116,6 +122,9 @@
             <div class="input_item">
               <p>Область \ Регион<span>*</span></p>
               <input type="text" name="" id="" placeholder="Область" />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
             <div class="input_item">
               <p>Город <span>*</span></p>
@@ -125,6 +134,9 @@
                 id=""
                 placeholder="Введите название вашего города"
               />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
           </div>
           <div class="input_item">
@@ -135,15 +147,24 @@
               id=""
               placeholder="Введите название улицы"
             />
+            <div class="error_message">
+              <span>Пожалуйста, заполниете поле!</span>
+            </div>
           </div>
           <div class="order_form_inputs">
             <div class="input_item">
               <p>Индекс <span>*</span></p>
               <input type="text" name="" id="" placeholder="Введите индекс" />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
             <div class="input_item">
               <p>Номер дома \ Квартира <span>*</span></p>
               <input type="text" name="" id="" placeholder="Например 37/2" />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
           </div>
           <div class="order_form_inputs">
@@ -155,6 +176,9 @@
                 id=""
                 placeholder="Введите ваш email адрес"
               />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
             <div class="input_item">
               <p>Номер телефона <span>*</span></p>
@@ -164,6 +188,9 @@
                 id=""
                 placeholder="+7 (___) ___ - ___ - ___"
               />
+              <div class="error_message">
+                <span>Пожалуйста, заполниете поле!</span>
+              </div>
             </div>
           </div>
           <div class="input_item">
@@ -171,6 +198,7 @@
             <textarea placeholder="Текст комментария"></textarea>
           </div>
         </div>
+
         <div class="order_calculating">
           <h3>Ваш заказ</h3>
 
@@ -316,5 +344,6 @@
         </a>
       </div>
     </footer>
+    <script src="./scripts/order-form.js"></script>
   </body>
 </html>

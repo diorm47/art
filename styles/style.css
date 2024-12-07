@@ -79,7 +79,8 @@ nav {
   align-items: center;
   gap: 40px;
 }
-.nav_contacts a {
+.nav_contacts a,
+.nav_contacts div {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -494,7 +495,7 @@ header {
   margin-bottom: 28px;
 }
 
-.phone_input div {
+.phone_input .phone_inputs_wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -713,7 +714,7 @@ footer p {
 
 .order_form_inputs {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   gap: 25px;
 }
@@ -927,7 +928,19 @@ footer p {
 .order_policy a {
   text-decoration: underline;
 }
-
+.error_message {
+  margin-top: 5px;
+  display: none;
+}
+.error_message span {
+  color: red;
+  font-family: Gilroy400;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
 .order_submit {
   display: flex;
   align-items: center;
