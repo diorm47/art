@@ -65,7 +65,7 @@ button {
 
 nav {
   border-bottom: 1px solid rgb(62, 62, 62);
-  padding: 40px 0;
+  padding: 20px 0;
   background: rgb(3, 3, 3);
 }
 
@@ -1171,17 +1171,17 @@ footer .nav_contacts {
     display: none;
   }
   nav {
-    padding: 28px 0;
+    padding: 16px 0;
   }
   .nav_wrapper {
-    padding: 0 24px;
+    padding: 0 16px;
   }
   .nav_logo {
     display: flex;
     align-items: center;
   }
   .nav_logo img {
-    width: 90px;
+    width: 52px;
   }
   .nav_bag img {
     width: 20px;
